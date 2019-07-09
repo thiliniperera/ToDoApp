@@ -4,7 +4,10 @@
   "description": "To Do App",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/thiliniperera/ToDoApp/issues"
   },
-  "homepage": "https://github.com/thiliniperera/ToDoApp#readme"
+  "homepage": "https://github.com/thiliniperera/ToDoApp#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-scripts": "^3.0.1",
+    "redux": "^4.0.1"
+  }  
 }
